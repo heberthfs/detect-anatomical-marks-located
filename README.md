@@ -1,13 +1,5 @@
-# detect-anatomical-marks-located
+# detect-eyes-open-closed
 
-'''Este programa tem como objetivo, detectar marcas anatômicas localizadas na crista ilíaca, trocânter maior do fêmur, epicôndilo lateral do fêmur, maléolo lateral e quinto metatarso. calcular o angulo entre elas. para isso utiliza-se o cv2.HoughCircles do OpenCV para detectar os circulos.
+Notebook disponivel em:https://colab.research.google.com/gist/heberthfs/4a4fba86bead3891b99072ad69cb8ed8/detectorolho.ipynb?authuser=1#scrollTo=NElJciZXwWqZ
 
-1 importação das Bilbiotecas
-2 Upload da foto
-3 Tratamento de Imagem
-4 Processamento de imagem
-4.1 Encontrar ciruclos salvar em matriz, criar toolbox "circular", imprimir angulos
-4.2 Organzar matriz pelo eixo Y de forma crescente.
-Encontrar ciruclos salvar em matriz, criar toolbox "circular", imprimir angulos
-4.3 Calcular angulos da matriz que contem as coordenadas dos circulos'''
-https://colab.research.google.com/drive/1LKzNmcH06f7DqrcetYtY0vnAPi1Q-iA3#scrollTo=TJBOkcXwT3J7
+Objetivo: Esse programa utiliza Dlib para detectar faces e pontos de interesse em uma imagem. Juntamento utiliza redes neurais de multiplas camadas e suporte vector machine com a abordagem "one vs one" e "one vs all" para classificar seu estado atual dos olhos (aberto/fechado).
